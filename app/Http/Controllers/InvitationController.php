@@ -31,7 +31,7 @@ class InvitationController extends Controller
 
         Wish::create($data);
 
-        return redirect()->to(route('invitation') . '#ucapan')
+        return redirect()->to(route('invitation') . 'wedding')
             ->with('ok', 'Terima kasih, ucapanmu sudah terkirim.');
     }
 }

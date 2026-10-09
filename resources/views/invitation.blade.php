@@ -342,7 +342,7 @@ img,svg,iframe{max-width:100%}
 </div></section>
 
 {{-- UCAPAN --}}
-<section class="wish" id="ucapan" style="padding-top:20px"><div class="col">
+<section class="wish" id="Wedding" style="padding-top:20px"><div class="col">
   <h2>Ucapan & RSVP</h2>
   @if(session('ok'))<div class="ok" role="status">{{ session('ok') }}</div>@endif
   <form method="POST" action="{{ route('wish.store') }}">
